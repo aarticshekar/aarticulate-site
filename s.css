@@ -70,3 +70,8 @@ h1 em{font-style:italic;font-weight:400;color:var(--coral)}
 @media(max-width:900px) and (min-width:621px){.grid .card:first-child{grid-column:span 2}}
 
 .body p{margin:0 0 26px}
+
+.rh{margin-bottom:22px}.readers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rd{background:var(--card);border:1px solid var(--sand);border-top:4px solid var(--sea);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:10px}
+.rd p{margin:0;font-size:15.5px}.rl{display:flex;flex-direction:column;gap:8px;margin-top:auto;padding-top:8px}.rl a{font-weight:700;font-size:15px;text-decoration:none}.rl a:hover{text-decoration:underline}
+@media(max-width:900px){.readers{grid-template-columns:1fr}}
