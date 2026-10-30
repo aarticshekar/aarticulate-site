@@ -68,3 +68,5 @@ h1 em{font-style:italic;font-weight:400;color:var(--coral)}
 .grid .card:first-child{grid-column:span 2}.grid .card:first-child h3{font-size:26px}
 @media(max-width:620px){.grid .card:first-child{grid-column:auto}.card .lens,.card h3,.card p,.card .meta{margin-left:20px;margin-right:20px}}
 @media(max-width:900px) and (min-width:621px){.grid .card:first-child{grid-column:span 2}}
+
+.body p{margin:0 0 26px}
