@@ -30,7 +30,7 @@ But I just love finding problems to fix, and more often than not, I land on some
 
 Mind you, I don't invent them. Not that crazy!
 
-So here are three things that bleed CX, and are probably costing someone money. Two of them, I'm living through myself.
+So here are three things that bleed CX, and are probably costing someone money. Two of them are very close to home.
 
 ## 1. The cancellation that never happened
 
@@ -70,21 +70,21 @@ It's the [discovery problem](/writing/your-client-isnt-difficult/) all over agai
 
 ## 3. The child who was marked absent
 
-My child's learning platform has a bug that stops us from seeing the link to a scheduled live session.
+A child's learning platform has a bug that stops the family from seeing the link to a scheduled live session.
 
-We log in at the agreed time. The link never shows up.
+They log in at the agreed time. The link never shows up.
 
-The system marks my child absent. Reality was completely different.
+The system marks the child absent. Reality was completely different.
 
 The teacher says it's a tech issue. The tech team says there's no ticket for it.
 
-So I go to the sales team, who are busy chasing their own forecasts and pipeline, to chase IT on my behalf.
+So the parent goes to the sales team, who are busy chasing their own forecasts and pipeline, to chase IT on their behalf.
 
-Meanwhile I'm taking time off work to sort out a tech issue so my child can attend an online class, with my boss breathing down my neck.
+Meanwhile the parent is taking time off work to sort out a tech issue so the child can attend an online class, with the boss breathing down their neck.
 
-My request sits in a long queue that runs on first in, first out.
+The request sits in a long queue that runs on first in, first out.
 
-Eventually, frustrated, I decided to cancel the subscription.
+Eventually, frustrated, the parent cancels the subscription.
 
 So who takes ownership of that loss?
 
