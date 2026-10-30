@@ -65,7 +65,7 @@ open(f'{OUT}/favicon.svg', 'w').write('<svg xmlns="http://www.w3.org/2000/svg" v
 person = {"@context": "https://schema.org", "@type": "Person", "name": "Aarti Chandrseker", "url": SITE, "jobTitle": "CRM Transformation and RevOps", "sameAs": [LINKEDIN]}
 
 
-READ = [("Founders", "Your business works, but only when you're in the room. Your teams blame each other, and the tools you bought aren't helping.", ["more-to-crm-than-data-logging", "customer-is-king"]),
+READ = [("Founders", "Your business works, but only when you're in the room. Your teams blame each other, and the tools you bought aren't helping.", ["integration-problem", "more-to-crm-than-data-logging"]),
         ("Revenue leaders", "You've inherited a CRM nobody trusts, a forecast nobody believes, and handoffs that leak.", ["customer-is-king", "your-client-isnt-difficult"]),
         ("Implementation partners", "You know the platform. It's the space between the platform and the people that keeps biting you.", ["your-client-isnt-difficult", "more-to-crm-than-data-logging"])]
 BYSLUG = {p['slug']: p for p in POSTS}

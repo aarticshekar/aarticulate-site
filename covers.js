@@ -19,6 +19,11 @@ const C={
 <div class="t" style="margin-top:40px">Customer is king.</div>
 <div style="display:flex;align-items:center;gap:0;margin-top:90px">${['Call centre','Billing','Support'].map((x,i)=>`${i?`<div style="width:120px;height:6px;background:repeating-linear-gradient(90deg,#BE7C68 0 18px,transparent 18px 34px)"></div>`:''}<div style="border:3px solid #F6F1EA;border-radius:22px;padding:30px 40px;font:700 34px Lato">${x}</div>`).join('')}</div>
 <div style="margin-top:70px;font:italic 400 44px Lora;color:#F0B9A6">So why does the customer fall through the gaps?</div></body>`,
+'integration-problem':`<body style="background:#F6F1EA;color:#1C2B33;padding:110px 120px">
+<div class="k" style="color:#BE7C68">The Integration Problem</div>
+<div style="display:flex;align-items:center;margin-top:90px">${['Marketing','Sales','Customer success'].map((x,i)=>`${i?`<div style="width:110px;height:6px;background:repeating-linear-gradient(90deg,#BE7C68 0 18px,transparent 18px 34px)"></div>`:''}<div style="background:${i==1?'#1F5C63':'#fff'};color:${i==1?'#F6F1EA':'#1C2B33'};border:2px solid #E4DACB;border-radius:24px;padding:32px 40px;font:700 34px Lato">${x}</div>`).join('')}</div>
+<div class="t" style="margin-top:100px;color:#1F5C63">Alignment is a meeting.</div>
+<div style="margin-top:18px;font:italic 400 58px Lora;color:#BE7C68">Integration is a system.</div></body>`,
 'og-home':`<body style="background:#1F5C63;color:#fff;padding:140px 120px"><div style="font:600 44px Lora">Aarticulate<span style="color:#BE7C68">.</span></div>
 <div class="t" style="margin-top:90px;max-width:1300px">Your revenue problem is an <i style="color:#F0B9A6;font-weight:400">integration</i> problem.</div>
 <div style="margin-top:60px;font:700 30px Lato;color:#D5E4E2">Aarti Chandrseker on the gaps between sales, marketing, CS and tech</div></body>`};
