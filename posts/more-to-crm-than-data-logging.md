@@ -32,7 +32,7 @@ So here's what I didn't say in that room.
 
 ## What is a CRM, really?
 
-Most people think it's where salespeople log contacts and deals. That's the software. The idea is bigger.
+Most people think it's where salespeople log contacts and deals. That's just the software.
 
 A CRM is your company's memory: every conversation, promise and contract, long after the person who made it has left.
 
@@ -122,15 +122,13 @@ Once the deal is won, they'll adjust the forecast, commissions and revenue numbe
 
 Everything you'd need an army to do, done for you, so all you have to do is read it and make better decisions.
 
-That future still runs on a CRM.
-
-It just stops being a data log.
+And all of that still runs on a CRM, just not one you log data into by hand.
 
 ## Is it worth the hype, or just another overhead?
 
-It's an overhead if you buy it to log data.
+Buy it to log data and it's an overhead.
 
-It's an asset if you use it to run the business.
+Use it to run the business and it pays for itself.
 
 Start with the decisions you need to make, then the few fields that feed them, then the tool.
 

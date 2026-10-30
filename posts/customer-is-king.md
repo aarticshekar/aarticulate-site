@@ -96,7 +96,7 @@ In every story, the customer fell into a gap between two teams or two systems, a
 
 That's why "customer is king" doesn't stop bad CX.
 
-Everyone believes it. Nobody is accountable for the space in between.
+Everyone believes it, but nobody wants to be accountable for the space in between.
 
 ## What can technology do in CX?
 
@@ -114,7 +114,7 @@ That part is still on us.
 
 ## Why should founders and the C-suite really care?
 
-Because bad CX is a revenue line, not a mood.
+Because bad CX shows up in revenue, whether you track it or not.
 
 [Qualtrics puts it](https://www.qualtrics.com/news/bad-customer-experiences-put-nearly-4-trillion-at-risk-in-global-sales/) at $3.8 trillion of global sales at risk from bad experiences, with 53% of consumers cutting their spending after one.
 
@@ -166,11 +166,11 @@ How many customers leave, and what happened right before they did.
 
 Those numbers already sit in your CRM and support tools.
 
-They're not vanity. They're the price of every gap you haven't closed.
+Think of them as the price of every gap you haven't bothered closing.
 
 ## In conclusion
 
-"Customer is king" is a slogan. CX is a system.
+"Customer is king" makes a great slogan, but CX only works as a system.
 
 Kings don't spend three months visiting offices to cancel a phone line.
 

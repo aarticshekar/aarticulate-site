@@ -38,7 +38,7 @@ She had lost time, money and face, given the entire transformation effort was dr
 
 Understandably, it was a difficult meeting. But I walked out feeling bad for her, for how wronged she had been.
 
-She wasn't being difficult. She had been let down five times over.
+She had been let down five times over, and it showed.
 
 ## What I think has been a miss
 
@@ -46,30 +46,30 @@ As she went on, I kept noticing things that could have gone wrong.
 
 Here's my list of what usually goes wrong with consulting and project-based engagements, and what it looks like when it does:
 
-- **Partial or limited discovery:** a couple of workshops and a template, and everyone calls it done. The real requirements turn up months later as change requests.
-- **Incomplete or incorrect process mapping:** the process gets mapped the way the slide says it works, not the way people actually work. So the system is built for a process nobody follows.
-- **Not enough understanding of legacy systems:** the old system has quirks only one person knows about. You find them in testing, when they're most expensive.
-- **Stakeholders not involved early:** the team that touches the process last hears about it last. They push back at go-live, and they're usually right.
-- **Wrong estimates of cost, time or resources:** the number was set to win the deal, not to deliver it. Everyone spends the rest of the project defending it.
-- **Legacy systems not checked for integration:** everyone assumes the two systems will talk. They don't, and the integration becomes a project of its own.
-- **Compliance and guardrails not thought through:** legal or security read the design in week ten. Then the rework starts.
-- **Scope creep underestimated:** small asks pile up with no process to price them. By the end, nobody can say what was in scope in the first place.
-- **Little or no communication on status and impact:** the client hears good news until suddenly there's bad news. Trust goes in a single meeting.
-- **Time drag:** a three month project becomes nine. People stop turning up to the steering meetings.
-- **Too many changes of hands:** every new face starts from scratch. Decisions get reopened because nobody remembers why they were made.
-- **Leadership priorities not understood:** the team builds what's easy, not what leadership actually wanted. The project goes live and nobody upstairs cares.
-- **Firefighting with no contingency plan:** every problem becomes an emergency. Nobody has time to think about the next one.
+- Partial or limited discovery. A couple of workshops and a template, and everyone calls it done. The real requirements turn up months later as change requests.
+- Incomplete or incorrect process mapping. The process gets mapped the way the slide says it works, not the way people actually work. So the system is built for a process nobody follows.
+- Not enough understanding of legacy systems. The old system has quirks only one person knows about. You find them in testing, when they're most expensive.
+- Stakeholders not involved early. The team that touches the process last hears about it last. They push back at go-live, and they're usually right.
+- Wrong estimates of cost, time or resources. The number was set to win the deal, not to deliver it. Everyone spends the rest of the project defending it.
+- Legacy systems not checked for integration. Everyone assumes the two systems will talk. They don't, and the integration becomes a project of its own.
+- Compliance and guardrails not thought through. Legal or security read the design in week ten. Then the rework starts.
+- Scope creep underestimated. Small asks pile up with no process to price them. By the end, nobody can say what was in scope in the first place.
+- Little or no communication on status and impact. The client hears good news until suddenly there's bad news. Trust goes in a single meeting.
+- Time drag. A three month project becomes nine. People stop turning up to the steering meetings.
+- Too many changes of hands. Every new face starts from scratch. Decisions get reopened because nobody remembers why they were made.
+- Leadership priorities not understood. The team builds what's easy, not what leadership actually wanted. The project goes live and nobody upstairs cares.
+- Firefighting with no contingency plan. Every problem becomes an emergency. Nobody has time to think about the next one.
 
 Implementation projects don't fail only because of the implementation partner.
 
 There are factors on the client's side too, a list that rarely gets acknowledged:
 
-- **No agreed scope, goal or objective:** the project kicks off on enthusiasm. Six months in, everyone has a different idea of done.
-- **A broken as-is process nobody flags:** the new system just automates the mess. It isn't the implementation partner's job to fix it, but someone has to say it.
-- **Stakeholders who don't see eye to eye:** two teams want opposite things. The consultant ends up refereeing instead of building.
-- **No line between must-haves and nice-to-haves:** everything is urgent. So nothing gets done well.
-- **Missing or prehistoric documentation:** nobody can say how things work today. Discovery becomes archaeology.
-- **User groups never thought through:** the system works, just not for the people who have to use it. They go back to Excel.
+- No agreed scope, goal or objective. The project kicks off on enthusiasm. Six months in, everyone has a different idea of done.
+- A broken as-is process nobody flags. The new system just automates the mess. It isn't the implementation partner's job to fix it, but someone has to say it.
+- Stakeholders who don't see eye to eye. Two teams want opposite things. The consultant ends up refereeing instead of building.
+- No line between must-haves and nice-to-haves. Everything is urgent. So nothing gets done well.
+- Missing or prehistoric documentation. Nobody can say how things work today. Discovery becomes archaeology.
+- User groups never thought through. The system works, just not for the people who have to use it. They go back to Excel.
 
 If I had to pick the one that costs the most, it's discovery.
 
