@@ -24,6 +24,7 @@ for f in glob.glob('posts/*.md'):
         faq = [l.split('|', 1) for l in fq.strip().split('\n') if '|' in l]
     words = len(re.findall(r'\w+', body))
     POSTS.append(dict(meta, slug=os.path.basename(f)[:-3], body=body, faq=faq, mins=max(3, round(words / 230))))
+POSTS = [p for p in POSTS if p.get('draft') != 'yes']
 POSTS.sort(key=lambda p: int(p['order']))
 
 def md(s): return markdown.markdown(s, extensions=['tables'])
@@ -63,6 +64,18 @@ open(f'{OUT}/favicon.svg', 'w').write('<svg xmlns="http://www.w3.org/2000/svg" v
 
 person = {"@context": "https://schema.org", "@type": "Person", "name": "Aarti Chandrseker", "url": SITE, "jobTitle": "CRM Transformation and RevOps", "sameAs": [LINKEDIN]}
 
+
+READ = [("Founders", "Your business works, but only when you're in the room. Your teams blame each other, and the tools you bought aren't helping.", ["more-to-crm-than-data-logging", "customer-is-king"]),
+        ("Revenue leaders", "You've inherited a CRM nobody trusts, a forecast nobody believes, and handoffs that leak.", ["customer-is-king", "your-client-isnt-difficult"]),
+        ("Implementation partners", "You know the platform. It's the space between the platform and the people that keeps biting you.", ["your-client-isnt-difficult", "more-to-crm-than-data-logging"])]
+BYSLUG = {p['slug']: p for p in POSTS}
+def readers():
+    out = []
+    for n, d, sl in READ:
+        links = ''.join(f'<a href="/writing/{x}/">{E(BYSLUG[x]["title"])} &rarr;</a>' for x in sl if x in BYSLUG)
+        out.append(f'<div class="rd"><h3>{E(n)}</h3><p>{E(d)}</p><div class="rl">{links}</div></div>')
+    return '<section class="wrap sec"><p class="k">Who I write for</p><h2 class="rh">Start with the path that sounds like you.</h2><div class="readers">' + ''.join(out) + '</div></section>'
+
 # ---------- home
 write('/', head("Aarticulate | Your revenue problem is an integration problem", "Aarti Chandrseker writes about the gaps between sales, marketing, customer success and technology, where revenue actually falls through.", '/', [person]) + f'''
 <main><section class="hero"><div class="wrap"><p class="k">Aarticulate</p><h1>Your revenue problem is an <em>integration</em> problem.</h1>
@@ -71,6 +84,7 @@ write('/', head("Aarticulate | Your revenue problem is an integration problem", 
 <section class="wrap sec"><p class="k">Sound familiar?</p><div class="three">
 <div class="q">The quarterly review turned into a blame session.</div><div class="q">You bought the tool. Six months later, the team is back in Excel.</div><div class="q">The business works, but only when you're in the room.</div></div>
 <p class="after">If any of these landed, start with <a href="/writing/{POSTS[0]["slug"]}/">{E(POSTS[0]["title"])}</a></p></section>
+{readers()}
 <section class="wrap sec"><div class="sh"><h2>Latest writing</h2><a href="/writing/">All writing</a></div><div class="grid">{''.join(card(p) for p in POSTS[:3])}</div></section>
 <section class="wrap sec"><p class="k">Five lenses I write through</p><div class="lenses">{''.join(f'<div><h3>{E(n)}</h3><p>{E(d)}</p></div>' for n, d in LENSES)}</div></section>
 <section class="proof"><div class="wrap"><p class="k">Proof, not enthusiasm</p><ul class="pl">
@@ -135,5 +149,5 @@ write('/404.html'.replace('.html', '/')[:-1] + '.html' if False else '/404/', he
 URLS.remove('/404/'); shutil.copy(f'{OUT}/404/index.html', f'{OUT}/404.html')
 open(f'{OUT}/robots.txt', 'w').write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
 open(f'{OUT}/sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join(f'<url><loc>{SITE}{u}</loc></url>' for u in URLS) + '</urlset>')
-open(f'{OUT}/.htaccess', 'w').write("ErrorDocument 404 /404.html\n")
+open(f'{OUT}/.htaccess', 'w').write("DirectoryIndex index.html\nErrorDocument 404 /404.html\n<IfModule mod_rewrite.c>\nRewriteEngine Off\n</IfModule>\n")
 print(len(URLS), 'pages,', len(POSTS), 'posts')
